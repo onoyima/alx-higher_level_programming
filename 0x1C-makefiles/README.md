@@ -1,4 +1,4 @@
-# C - Makefiles BY onoyima boniface
+# C - Makefiles Project by Boniface
 
 In this project, I practiced writing Makefiles.
 

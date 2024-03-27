@@ -1,5 +1,9 @@
 #!/bin/bash
 
-# Make a PUT request with curl to the specified endpoint
-curl -sX PUT 0.0.0.0:5000/catch_me --output /dev/null --header "Origin: HolbertonSchool"
+# A Bash script that:
+    # makes a request to `0.0.0.0:5000/catch_me` that
+    # causes the server to respond with a message containing `You got me!` in the body of the response.
+# Use `curl`
+# Not allowed to use `echo`, `cat`, etc. to display the final result
 
+curl -sL -X PUT -H "Origin: HolbertonSchool" -d "user_id=98" 0.0.0.0:5000/catch_me
